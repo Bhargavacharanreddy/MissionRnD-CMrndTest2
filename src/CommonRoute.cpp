@@ -57,7 +57,10 @@ char * find_common_route(char *hacklist, char *codelist, int *cost)
 	{
 		for (int j = 0; codelist[j]; j++)
 		{
-			 
+			while (codelist[j] == hacklist[i])
+			{
+				 
+			}
 		}
 	}
 	
